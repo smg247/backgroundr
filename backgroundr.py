@@ -6,25 +6,17 @@ def create_background(size, color):
     return image
 
 
-def add_text(image, font_path, size=32, x_cord=0, y_cord=0):
+def add_text(image, text, font_path, size=32):
     font = ImageFont.truetype(font_path, size)
     draw = ImageDraw.Draw(image)
-    draw.text((x_cord, y_cord), "Hello World", font=font)
+    coordinates = get_center_coordinates(image, font, text)
+    draw.text(coordinates, text, font=font)
 
 
-def main():
-    size = (1920, 1080)
-    color = (100, 120, 200)
-    location = '/Users/smg247/Backgroundr_Images/'
-    name = 'out'
-    extension = '.jpg'
-    font_path = 'fonts/Open_Sans/OpenSans-Regular.ttf'
+def get_center_coordinates(image, font, text):
+    image_width = image.size[0]
+    image_height = image.size[1]
+    text_width = font.getsize(text)[0]
+    text_height = font.getsize(text)[1]
+    return (image_width / 2) - (text_width / 2), (image_height / 2) - (text_height / 2)
 
-    image = create_background(size, color)
-    add_text(image, font_path, 32, 100, 300)
-
-    full_filename = location + name + extension
-    image.save(full_filename)
-
-
-main()
