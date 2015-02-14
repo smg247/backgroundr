@@ -5,7 +5,11 @@ A simple way to create backgrounds for your computer with custom colors and text
 Currently Backgroundr only works on *nix machines and requires python3 to run.
 
 ## Installation
-Clone this repository and then run:
+Using pip:
+```
+pip install Backgroundr
+```
+Or cloning or downloading zip and then:
 ```
 pip install -r requirements.txt
 ```
