@@ -18,3 +18,5 @@ python cli.py RED GREEN BLUE FILE_NAME QUOTED_TEXT
 Where ```RED```, ```GREEN```, and ```BLUE``` are all integers between 0 and 255 that represent the amount of the particular color, ```FILE_NAME``` is the name you would like your background to be stored as, and ```QUOTED_TEXT``` is the text you would like to have appear on your background (in quotes).  
 
 Your background will be created and saved in the output directory.
+
+![Thank you](https://github.com/smg247/backgroundr/blob/master/demo/thank_you.jpg?raw=true)
