@@ -1,7 +1,9 @@
 import sys
-from backgroundr import create_background, add_text
+
+from background_creation import *
 from settings import *
 from font_paths import *
+
 
 def main():
     if len(sys.argv) != 6 or sys.argv[1] == 'help':
