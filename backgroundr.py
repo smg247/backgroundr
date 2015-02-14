@@ -19,4 +19,3 @@ def get_center_coordinates(image, font, text):
     text_width = font.getsize(text)[0]
     text_height = font.getsize(text)[1]
     return (image_width / 2) - (text_width / 2), (image_height / 2) - (text_height / 2)
-
