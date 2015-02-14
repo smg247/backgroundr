@@ -3,7 +3,7 @@ import sys
 
 from background_creation import *
 from settings import *
-from font_paths import *
+from fonts.font_paths import *
 
 
 def main():
