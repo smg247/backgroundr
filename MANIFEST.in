@@ -1,1 +1,1 @@
-recursive-include backgroundr/fonts *.ttf
+recursive-include fonts *.ttf

@@ -108,3 +108,5 @@ crashlytics-build.properties
 
 # Begin my files
 sensitive.py
+
+upload_script.sh

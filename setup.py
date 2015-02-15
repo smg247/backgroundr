@@ -7,7 +7,7 @@ setup(
     
     description="A simple way to create backgrounds for your computer with custom colors and text",
 
-    version="1.1.8",
+    version="1.1.11",
 
     install_requires=[
         "Pillow",
@@ -16,7 +16,7 @@ setup(
     packages=find_packages(),
 
     package_data={
-        'fonts': ['backgroundr/fonts/*']
+        "backgroundr": ["fonts/*"]
     },
 
     include_package_data=True,

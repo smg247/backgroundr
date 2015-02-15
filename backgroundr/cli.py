@@ -3,7 +3,7 @@ import sys
 
 from background_creation import *
 from settings import *
-from fonts.font_paths import *
+from font_paths import *
 
 
 def main():
@@ -21,7 +21,7 @@ def main():
     font_path = font_paths[FONT]
 
     image = create_background(size, color)
-    add_text(image, text, font_path, 64)
+    add_text(image, text, font_path, FONT_SIZE)
 
     full_filename = LOCATION + name + extension
     image.save(full_filename)
