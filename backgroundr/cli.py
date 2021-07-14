@@ -18,10 +18,10 @@ def main():
     name = sys.argv[4]
     text = sys.argv[5]
     extension = '.jpg'
-    font_path = font_paths[FONT]
+    # font_path = font_paths[FONT]
 
     image = create_background(size, color)
-    add_text(image, text, font_path, FONT_SIZE)
+    add_text(image, text, FONT, FONT_SIZE)
 
     full_filename = LOCATION + name + extension
     image.save(full_filename)
