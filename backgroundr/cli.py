@@ -1,8 +1,8 @@
 from __future__ import print_function
 import sys
 
-from background_creation import *
-from settings import *
+from background_creation import create_background, add_text
+from settings import SCREEN_WIDTH, SCREEN_HEIGHT, FONT, FONT_SIZE, LOCATION
 
 
 def main():

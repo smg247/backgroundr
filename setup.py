@@ -4,7 +4,7 @@ setup(
     name="Backgroundr",
 
     keywords="Backgrounds Wallpapers Images",
-    
+
     description="A simple way to create backgrounds for your computer with custom colors and text",
 
     version="1.1.11",
