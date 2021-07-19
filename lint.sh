@@ -4,4 +4,4 @@ pip3 install -r requirements.txt
 
 invoke pylint
 
-return 0 # The linting will always pass, but will show the errors
+exit 0 # The linting will always pass, but will show the errors
